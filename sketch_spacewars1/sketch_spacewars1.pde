@@ -19,5 +19,14 @@ void draw()
   line(point2x, point2y, x, point1);
   line(point3x, point3y, x, point1);
  
+ if (keyPressed)
+ {
+  if (key == 'w')
+  {
+     stroke(random(0, 255), random(0, 255), random(0, 255)); 
+  }
+  
+ }
+ 
   
 }
